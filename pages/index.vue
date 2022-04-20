@@ -19,7 +19,7 @@ export default {};
 <style lang="scss" scoped>
 ul {
   display: flex;
-  font-size: 15px;
+  font-size: 15px; 
   background-color: red;
 }
 li {
