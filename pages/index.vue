@@ -1,15 +1,8 @@
 <template>
-  <div>
-    <div class="Barre">
-      <ul>
-        <li>
-          <a href="#">Projects</a>
-        </li>
-        <li>
-          <a href="#">Competences</a>
-        </li>
-      </ul>
-    </div>
+  <div class="main">
+    <header/>
+    <div class="sticky_barre"></div>
+    
   </div>
 </template>
 
