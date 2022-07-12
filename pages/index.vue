@@ -1,22 +1,15 @@
 <template>
-  <div class="main">
-    <header/>
-    <div class="sticky_barre"></div>
-    
-  </div>
+  <v-container>
+    <div class="sticky_bar">
+      <p href="acaback">Parcours Académique</p>
+      <p href="projects">Projects</p>
+      <p href="skills">Compétences</p>
+      <p href="footer">Contact</p>
+    </div>
+  </v-container>
 </template>
 
 <script>
 export default {};
 </script>
-<style lang="scss" scoped>
-ul {
-  display: flex;
-  font-size: 15px; 
-  background-color: red;
-}
-li {
-  padding: 0 30px;
-  line-height: 50px;
-}
-</style>
+

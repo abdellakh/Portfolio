@@ -1,3 +1,7 @@
-main{
-     display: inline-block;
-}    
+div {
+  position: sticky;
+  display: flex;
+  p {
+    margin: 0 10px 10px 10px;
+  }
+}

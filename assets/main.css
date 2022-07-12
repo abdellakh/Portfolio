@@ -1,4 +1,12 @@
-main {
-  display: inline-block;
+div {
+  position: -webkit-sticky;
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div p {
+  margin: 0 10px 10px 10px;
 }
 /*# sourceMappingURL=main.css.map */
