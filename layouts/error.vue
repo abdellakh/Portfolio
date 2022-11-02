@@ -1,11 +1,10 @@
 <template>
     <div>
-        <div id="header" class="header">
-            <nuxt/>
-        </div>
-        
+        <h1>Erreur</h1>
+        <p>Veuillez réessayer plutard !</p>
     </div>
 </template>
+
 
 <script>
 export default {

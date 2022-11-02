@@ -1,12 +1,243 @@
-div {
-  position: -webkit-sticky;
-  position: sticky;
+html {
+  font-size: 16px;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.headline {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0 5em;
+}
+
+.profil {
+  border-radius: 8px;
+  margin: 10px;
+  height: auto;
+  width: 28%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.grayEffect {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: -webkit-filter 300s;
+  transition: -webkit-filter 300s;
+  transition: filter 300s;
+  transition: filter 300s, -webkit-filter 300s;
+  opacity: 0.5;
+}
+
+.grayEffect:is(:hover, :focus) {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  opacity: 1;
+}
+
+.mainLogo {
+  width: 15%;
+  height: 20%;
+}
+
+.main {
+  position: relative;
+  display: block;
+  background-color: #141414;
+}
+
+.main .sticky_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #202020;
+  padding: 0.8em 1em;
+  width: 100%;
+}
+
+.main .sticky_bar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .sticky_bar .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4em;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main .sticky_bar .menu .titles {
+  padding: 0 1.2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.main .sticky_bar .menu .titles:hover {
+  color: #B5B5B5;
+}
+
+.contact {
+  background-color: #8C92AC;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 0 0 0 0.5em;
+  color: #E9DCBE;
+  -webkit-transition: background-color 0.5s ease-out, color 0.5s ease-out;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.contact:hover {
+  background-color: #E9DCBE;
+  color: #8C92AC;
+  -webkit-transition: background-color 0.5s ease-out, color 0.5s ease-out;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.home {
+  width: 100%;
+  height: 38em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem;
+}
+
+.home .welcome div {
+  display: block;
+  padding: 0.5rem;
+  width: 75%;
+  height: 10em;
+}
+
+.home .welcome .myName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: italic;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  padding: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .myProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ffffff;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.4em 0;
+}
+
+.project {
+  border-radius: 8px;
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.mainProject {
+  width: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-shadow: 5px 5px 5px #7e7e7e;
+          box-shadow: 5px 5px 5px #7e7e7e;
+  height: auto;
+}
+
+.title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  padding: 0.5em 0;
+  color: #00ffff;
+}
+
+.content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0 5em;
+}
+
+.test {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-div p {
-  margin: 0 10px 10px 10px;
+.test .testdetest {
+  width: 50%;
+  height: 400px;
+  background-color: #E9DCBE;
+}
+
+.test .testdetest2 {
+  width: 50%;
+  height: 400px;
+  background-color: #8C92AC;
 }
 /*# sourceMappingURL=main.css.map */
